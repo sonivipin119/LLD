@@ -56,7 +56,6 @@ int main() {
     editor.addImage("picture.jpg");
     editor.addText("This is a document editor.");
 
-
     cout << editor.renderDocument() << endl;
 
     editor.saveToFile();
