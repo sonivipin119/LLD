@@ -155,7 +155,7 @@ int main() {
     Persistence* persistence = new FileStorage();
 
     DocumentEditor* editor = new DocumentEditor(document, persistence);
-
+    
     // Simulate a client using the editor with common text formatting features.
     editor->addText("Hello, world!");
     editor->addNewLine();
